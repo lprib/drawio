@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T08:00:46.916Z" agent="5.0 (X11)" etag="0BBqM9uAuEJu6MlSxvNs" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T08:02:49.969Z" agent="5.0 (X11)" etag="ne4wlXY8GWrwpZsiTrne" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
-    <mxGraphModel dx="1673" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,7 +169,7 @@
             <mxPoint x="-3" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-60" value="OBD2 Dongle" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-60" value="OBD2 Dongle" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="525" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-69" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-45" target="yQzmOEpMGr1GONdV6GIF-51">
@@ -214,7 +214,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-86" value="Something to pass on realtime events (maybe not needed)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-86" value="Something to pass on realtime events (maybe not needed)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-92" value="Raspberry PI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -305,11 +305,22 @@
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-157" value="MQTT over Ethernet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-155">
           <mxGeometry x="-0.3" y="-2" relative="1" as="geometry">
-            <mxPoint x="14" y="3" as="offset" />
+            <mxPoint x="-2" y="-27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-153" value="Ethernet Modem" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="390" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-164" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-163" target="yQzmOEpMGr1GONdV6GIF-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-165" value="???" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-164">
+          <mxGeometry x="-0.3812" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-163" value="OBD2 simulator" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
