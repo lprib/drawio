@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T07:00:12.494Z" agent="5.0 (X11)" etag="-OIUCbsWoaOCPl4TE4IV" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T07:07:05.267Z" agent="5.0 (X11)" etag="X6bBaQfqOCfiVShhpeq-" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
     <mxGraphModel dx="1422" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yQzmOEpMGr1GONdV6GIF-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="500" width="640" height="280" as="geometry" />
+          <mxGeometry x="520" y="500" width="640" height="310" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-103" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="545" y="570" width="170" height="200" as="geometry" />
@@ -222,7 +222,11 @@
           <mxGeometry x="570" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-105" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-86" target="yQzmOEpMGr1GONdV6GIF-103">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-106" value="???" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-105">
           <mxGeometry x="0.0074" y="-1" relative="1" as="geometry">
@@ -259,6 +263,9 @@
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-104" value="Main server application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="580" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-111" value="We need a separate datapath for events, since they need to be pushed from server to client, rather than the client requesting them" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="700" width="130" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
