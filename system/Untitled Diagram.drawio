@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T07:29:58.377Z" agent="5.0 (X11)" etag="viWxQzll54fFU2zw_inF" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T07:30:52.514Z" agent="5.0 (X11)" etag="Zs7fgO9C2mhaa5hnSlG8" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
-    <mxGraphModel dx="2370" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2844" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,7 +112,7 @@
         <mxCell id="yQzmOEpMGr1GONdV6GIF-46" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-38" target="yQzmOEpMGr1GONdV6GIF-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-47" value="INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-46">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-47" value="SQL INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-46">
           <mxGeometry x="-0.2292" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -120,7 +120,7 @@
         <mxCell id="yQzmOEpMGr1GONdV6GIF-48" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-41" target="yQzmOEpMGr1GONdV6GIF-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-49" value="INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-48">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-49" value="SQL INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-48">
           <mxGeometry x="0.0076" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -150,7 +150,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-81" value="INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-71">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-81" value="SQL INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-71">
           <mxGeometry x="0.0864" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -169,7 +169,7 @@
         <mxCell id="yQzmOEpMGr1GONdV6GIF-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.994;entryY=0.17;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-55" target="yQzmOEpMGr1GONdV6GIF-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-108" value="SELECT, INSERT, DELETE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-107">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-108" value="SQL SELECT, INSERT, DELETE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-107">
           <mxGeometry x="0.2973" y="8" relative="1" as="geometry">
             <mxPoint x="10" y="12" as="offset" />
           </mxGeometry>
@@ -183,12 +183,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-55" value="Main PostgreSQL Database" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="870" y="590" width="100" height="90" as="geometry" />
+          <mxGeometry x="880" y="590" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-58" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-57" target="yQzmOEpMGr1GONdV6GIF-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-59" value="INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-58">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-59" value="SQL INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-58">
           <mxGeometry x="0.0006" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -213,7 +213,7 @@
             <mxPoint x="790" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-70" value="SELECT and DELETE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-69">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-70" value="SQL SELECT and DELETE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-69">
           <mxGeometry x="-0.3083" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
