@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T07:08:46.559Z" agent="5.0 (X11)" etag="jwlrHiJGIKBteZbUp6Wy" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T07:12:57.453Z" agent="5.0 (X11)" etag="8DYDdPnTybfc3Lsav5fL" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
-    <mxGraphModel dx="1422" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="640" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="500" width="640" height="310" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-103" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="545" y="570" width="170" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="120" width="640" height="360" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="400" height="360" as="geometry" />
@@ -266,6 +266,21 @@
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-111" value="We need a separate datapath for events, since they need to be pushed from server to client, rather than the client requesting them" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1020" y="700" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-113" value="Main data flow" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="378" width="160" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-114" value="&lt;div&gt;Main&lt;/div&gt;&lt;div&gt;data&lt;/div&gt;&lt;div&gt;flow&lt;br&gt;&lt;/div&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="740" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-116" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="400" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-117" value="Client&#39;s monitoring computer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-118" value="Main data flow" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="550" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
