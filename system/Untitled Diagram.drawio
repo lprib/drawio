@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T07:17:35.805Z" agent="5.0 (X11)" etag="ibskwN7622O7FUVrqfqm" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T07:21:17.876Z" agent="5.0 (X11)" etag="6AzfnK2AZ-EoB10qq_5C" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
-    <mxGraphModel dx="2031" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-38" value="Node-RED" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-46" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-38" target="yQzmOEpMGr1GONdV6GIF-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -110,9 +113,6 @@
           <mxGeometry x="-0.2292" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-38" value="Node-RED" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="780" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-48" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-41" target="yQzmOEpMGr1GONdV6GIF-45">
           <mxGeometry relative="1" as="geometry" />
@@ -122,21 +122,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-120" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-41" target="yQzmOEpMGr1GONdV6GIF-86">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="840" y="550" />
-              <mxPoint x="1050" y="550" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-121" value="???" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-120">
-          <mxGeometry x="0.4" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-41" value="Signal Processing " style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="780" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-43" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-35" target="yQzmOEpMGr1GONdV6GIF-41">
           <mxGeometry relative="1" as="geometry">
@@ -153,7 +140,12 @@
           <mxGeometry x="990" y="180" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-51" target="yQzmOEpMGr1GONdV6GIF-55">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="510" />
+              <mxPoint x="920" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-81" value="INSERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-71">
           <mxGeometry x="0.0864" y="1" relative="1" as="geometry">
@@ -165,11 +157,11 @@
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-88" value="&lt;div&gt;Some other realtime&lt;/div&gt;&lt;div&gt;communication to send&lt;/div&gt;&lt;div&gt;urgent events (???)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-87">
           <mxGeometry x="0.2756" y="-7" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="17" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-51" value="Main Server Update Process" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="980" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.994;entryY=0.17;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-55" target="yQzmOEpMGr1GONdV6GIF-103">
           <mxGeometry relative="1" as="geometry" />
@@ -179,7 +171,7 @@
             <mxPoint x="10" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-122" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-55" target="yQzmOEpMGr1GONdV6GIF-86">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-122" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-55" target="yQzmOEpMGr1GONdV6GIF-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-123" value="???" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-122">
@@ -302,6 +294,9 @@
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-118" value="Main data flow" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="400" y="550" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-124" value="Need a separate process to push data to the central server whenever internet connection is available" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="429" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
