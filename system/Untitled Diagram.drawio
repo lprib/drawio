@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T07:32:13.075Z" agent="5.0 (X11)" etag="YdU2_FOIXALcj1reAqIf" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T07:33:47.320Z" agent="5.0 (X11)" etag="YgFPU2wqXltHqjzPafxY" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
     <mxGraphModel dx="2031" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-2" value="Accelerometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-2" value="Accelerometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-76" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-3">
