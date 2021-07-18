@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-18T07:26:03.614Z" agent="5.0 (X11)" etag="uV5Uc7mQvTn2jCEJDmSZ" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-18T07:29:03.048Z" agent="5.0 (X11)" etag="IQ9TWTJK5v_Zwxprg52f" version="14.9.0" type="github">
   <diagram id="-7PYltsYjRVQ2mrx4WxT" name="Page-1">
-    <mxGraphModel dx="1422" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,12 +51,12 @@
             <mxPoint x="290" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-78" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-74">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-78" value="analog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-74">
           <mxGeometry x="-0.0703" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-4" value="Air Quality Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-4" value="Air Quality Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-75" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-5">
@@ -182,7 +182,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yQzmOEpMGr1GONdV6GIF-55" value="Main PostgreSQL Database" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-55" value="Main PostgreSQL Database" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="870" y="590" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-58" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-57" target="yQzmOEpMGr1GONdV6GIF-45">
@@ -194,7 +194,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-57" value="OBD2 Reader Process" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="780" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-61" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-60" target="yQzmOEpMGr1GONdV6GIF-57">
           <mxGeometry relative="1" as="geometry" />
@@ -306,6 +306,17 @@
         </mxCell>
         <mxCell id="yQzmOEpMGr1GONdV6GIF-127" value="Not yet implemented" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="220" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-130" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="yQzmOEpMGr1GONdV6GIF-128" target="yQzmOEpMGr1GONdV6GIF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-133" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yQzmOEpMGr1GONdV6GIF-130">
+          <mxGeometry x="0.2241" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yQzmOEpMGr1GONdV6GIF-128" value="Barometric sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
